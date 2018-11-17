@@ -1,0 +1,1 @@
+ftp -A -s:FTP_Config.txt 192.168.1.16

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{7e4bf016-e631-4965-abdc-ede714bf0110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handle">
+      <UniqueIdentifier>{05072b62-e992-4496-b70e-24ddce75fd60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Aimbot">
+      <UniqueIdentifier>{c517ea8f-e941-4061-9b69-9a14c1e4f4b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Structs">
+      <UniqueIdentifier>{1df0162e-cb77-49e5-ad7d-7a88ce91c774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Nonhost">
+      <UniqueIdentifier>{e22892eb-0ea4-404a-ba28-77d8be98e854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handle\PPU">
+      <UniqueIdentifier>{c87784a2-ffc3-418d-8071-2e8f827497e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handle\Nonhost Handles">
+      <UniqueIdentifier>{176a3cb2-85e8-40cb-a919-780ddbcdc38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Nonhost\UI">
+      <UniqueIdentifier>{c2e10678-4fa6-4376-a95f-989a4fc10748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Visuals">
+      <UniqueIdentifier>{acc9f724-0c1e-47b4-9e8b-d431126b8da6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="prx.cpp">
+      <Filter>Handle\PPU</Filter>
+    </ClCompile>
+    <ClCompile Include="printf.cpp">
+      <Filter>Handle\PPU</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include.h">
+      <Filter>Handle\Nonhost Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="va.h">
+      <Filter>Handle\Nonhost Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="Buttons.h">
+      <Filter>Game\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Game\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoker.h">
+      <Filter>Handle\Nonhost Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h">
+      <Filter>Handle\Nonhost Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="PPU.h">
+      <Filter>Handle\PPU</Filter>
+    </ClInclude>
+    <ClInclude Include="NonhostUIFuncts.h">
+      <Filter>Game\Nonhost\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Mod.h">
+      <Filter>Game\Nonhost</Filter>
+    </ClInclude>
+    <ClInclude Include="CallBacks.h">
+      <Filter>Game\Nonhost\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ESPHandle.h">
+      <Filter>Game\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Game\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="MPFunctions.h">
+      <Filter>Game\Nonhost\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>Game\Nonhost</Filter>
+    </ClInclude>
+    <ClInclude Include="Monitor.h">
+      <Filter>Handle\Nonhost Handles</Filter>
+    </ClInclude>
+    <ClInclude Include="Autowall.h">
+      <Filter>Game\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Game\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAim.h">
+      <Filter>Game\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="NonhostUI.h">
+      <Filter>Game\Nonhost\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

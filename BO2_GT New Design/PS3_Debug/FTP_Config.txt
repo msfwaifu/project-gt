@@ -1,0 +1,3 @@
+cd /dev_hdd0/tmp/
+put BO2_GT.sprx
+BYE

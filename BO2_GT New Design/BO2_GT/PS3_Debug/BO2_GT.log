@@ -1,0 +1,18 @@
+﻿Build started 9/3/2018 10:25:16 AM.
+     1>Project "C:\Users\Eric\Desktop\BO2_GT New Design\BO2_GT\BO2_GT.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "PS3_Debug\BO2_GT.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         BO2_GT.vcxproj -> C:\Users\Eric\Desktop\BO2_GT New Design\PS3_Debug\BO2_GT.sprx
+         Cannot find the expected PRX Stub Library file: cellPrx_BO2_GT_stub.a
+       FinalizeBuildStatus:
+         Deleting file "PS3_Debug\BO2_GT.unsuccessfulbuild".
+         Touching "PS3_Debug\BO2_GT.lastbuildstate".
+     1>Done Building Project "C:\Users\Eric\Desktop\BO2_GT New Design\BO2_GT\BO2_GT.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.19
